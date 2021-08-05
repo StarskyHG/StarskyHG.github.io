@@ -1,0 +1,100 @@
+body.contactBodyPart {
+    background-color: rgba(212, 214, 185, 0.5);
+}
+
+/* Navigation Tab */
+.nav {
+    padding: 1em;
+}
+
+.nav a>img {
+    width: 50%;
+}
+
+
+/* Offcanvas */
+div.offcanvas {
+    background-color: rgba(212, 214, 185, 100);
+    border: none;
+}
+
+.offcanvas-title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: #32213A;
+}
+
+
+.offcanvas-body .links {
+    margin: 4em 0;
+}
+
+.offcanvas-body .links:hover {}
+
+.offcanvas-body .links a {
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #32213A;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.offcanvas-body .links a:hover {
+    color: rgba(212, 214, 185, 100);
+    background-color: #32213A;
+    padding: 1em 2em;
+    border-radius: 1em 0 1em 0;
+    transition: 0.5s;
+}
+
+
+/* Contact Header Section */
+.contactHeaderSection{
+	margin-top: 10em;
+}
+
+.contactHeaderSection h1,h3,h4,p{
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.contactHeaderSection h1{
+	font-weight: 900 ;
+	color: #32213A;
+	margin-bottom: 1.5em;
+}
+
+.contactHeaderSection h3{
+	font-weight: 700;
+	color: #32213A;
+	margin: 0 10em 1.5em;
+}
+
+.contactHeaderSection h4{
+	font-weight: 500;
+	color: #383B53;
+}
+
+/* First Header Section */
+.firstHeaderSection{
+	margin-bottom: 6em;
+}
+
+/* Second Header Section */
+.secondHeaderSection a{
+	background-color: #32213A ;
+	padding: 1em 2em;
+	font-size: 20px;
+	text-decoration: none;
+	color: rgba(212, 214, 185, 100);
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 700;
+	border-radius: 0 1em 0 1em;
+}
+
+.secondHeaderSection a:hover{
+	border: 1px solid #32213A;
+	background-color: rgba(212, 214, 185, 0.5);
+	transition: 0.8s;
+	border-radius: 1em 0 1em 0;
+	color: #32213A;
+}

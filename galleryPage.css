@@ -1,0 +1,90 @@
+body.galleryBodyPart {
+    background-color: rgba(212, 214, 185, 0.5);
+}
+
+/* Navigation Tab */
+.nav {
+    padding: 1em;
+}
+
+.nav a>img {
+    width: 50%;
+}
+
+
+/* Offcanvas */
+div.offcanvas {
+    background-color: rgba(212, 214, 185, 100);
+    border: none;
+}
+
+.offcanvas-title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    color: #32213A;
+}
+
+
+.offcanvas-body .links {
+    margin: 4em 0;
+}
+
+.offcanvas-body .links:hover {}
+
+.offcanvas-body .links a {
+    text-decoration: none;
+    font-family: 'Red Hat Display', sans-serif;
+    color: #32213A;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.offcanvas-body .links a:hover {
+    color: rgba(212, 214, 185, 100);
+    background-color: #32213A;
+    padding: 1em 2em;
+    border-radius: 1em 0 1em 0;
+    transition: 0.5s;
+}
+
+/* Header Section */
+.headerSection {
+    padding: 15em 0;
+}
+
+.headerSection h1,h3{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.headerSection h1 {
+    font-weight: 900;
+    margin-bottom: 1em;
+    color: #32213A;
+}
+
+.headerSection h3 {
+    font-weight: 500;
+    color: #32213A;
+    margin-bottom: 2em;
+}
+
+
+/* Image Section */
+.imageSection {
+    margin: 10em;
+    padding-top: 10em;
+    border-top: 1em double #32213A;
+}
+
+.imageRow{
+	margin: 10em 0;
+}
+
+.imageItem{
+	border-radius: 4em 4em 0;
+}
+
+.imageItem:hover {
+	border-radius: 0 4em 4em;
+	transition: 0.3s;
+}

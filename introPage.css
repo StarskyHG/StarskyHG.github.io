@@ -1,0 +1,58 @@
+.bodyPart {
+	background-color: rgba(212, 214, 185, 0.5);
+	font-family: 'Red Hat Display', sans-serif;
+}
+
+.introBox{
+	margin: 5em;
+	padding: 5em;
+}
+
+.introBox h1{
+	font-weight: 900;
+	margin-bottom: 1.5rem;
+	font-size: 50px;
+	color: #32213A;
+;
+}
+
+.introBox h3{
+	font-weight: 500;
+	margin-bottom: 1rem;
+	font-size: 25px;
+	color: #383B53;
+}
+
+.introBox p{
+	font-weight: 500;
+	margin-bottom: 2rem;
+	font-size: 16px;
+	color: #383B53;
+}
+
+.introMessage{
+	margin-bottom: 10em;
+}
+
+button.btn{
+	font-weight: 900;
+	font-size: 1.5rem;
+	padding: 1rem 5em;
+	background-color: #32213A;
+	color: ghostwhite;
+	border-radius: 1em 0 1em 0;
+}
+
+button.btn:hover{
+	background-color: rgba(212, 214, 185, 0.5);
+	color: #32213A;
+	border: 1px solid #32213A;
+	border-radius: 0 1em 0 1em;
+	transition: 0.8s;
+}
+
+
+.profilePicture img{
+	width: 250px;
+	height: 250px;
+}
